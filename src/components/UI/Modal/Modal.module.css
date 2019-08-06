@@ -1,0 +1,22 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: aliceblue;
+  width: 55%;
+  height: 65%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 26px;
+  left: 15%;
+  top: 14%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  border-radius: 2rem;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
