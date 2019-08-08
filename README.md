@@ -4,8 +4,8 @@ Project hosted on Heroku-
 [See Demo](https://i-tunes-fetch-top-100-songs.herokuapp.com/)
 
 This responsive web app(ReactJS) retrieves the top rated albums currently on iTunes and presents the information in an engaging way.
-My design process began by listing the top 100 albums from [Itunes API](https://itunes.apple.com/in/rss/topalbums/limit=100/json)
-You can sort the albums alphabetically from (A to Z or Z to A). You can add your favourite album by clicking on Fav Album button.
+My design process began by listing the top 100 albums from [Itunes API](https://itunes.apple.com/in/rss/topalbums/limit=100/json)<br />
+You can sort the albums alphabetically from (A to Z or Z to A).<br /> You can add your favourite album by clicking on Fav Album button.<br />
 When clicking on a particular album, a modal show containing detailed information of album.
 You can then select Buy Now button to purchase the song, it will redirect you to apple music.
 
