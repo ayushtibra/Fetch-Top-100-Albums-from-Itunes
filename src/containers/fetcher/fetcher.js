@@ -30,6 +30,9 @@ class Fetcher extends Component {
           filteredPosts: res.data.feed.entry
         });
       });
+    if (localStorage.getItem("favItems")) {
+      this.setState({ favItems: JSON.parse(localStorage.getItem("favItems")) });
+    }
   }
 
   modalShow = titleId => {
