@@ -18,9 +18,10 @@ class Basket extends Component {
               {this.props.favItems.map(item => (
                 <li key={item.title.id}>
                   <b style={{ color: "white" }}> {item["im:name"].label} </b>
+                  {"  : "}
                   <button
-                    className="btn btn-danger"
-                    onClick={e => this.handleRemoveFromFav(e, item)}
+                    className="btn btn-info btn-sm"
+                    onClick={e => this.props.handleRemoveFromFav(e, item)}
                   >
                     x
                   </button>

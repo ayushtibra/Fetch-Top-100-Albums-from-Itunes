@@ -63,6 +63,16 @@ class Fetcher extends Component {
     console.log(favItems);
   };
 
+  handleRemoveFromFav = (e, product) => {
+    this.setState(state => {
+      const favItems = state.favItems.filter(
+        element => element.title.label !== product.title.label
+      );
+      localStorage.setItem("favItems", favItems);
+      return { favItems };
+    });
+  };
+
   handleChangeSort = e => {
     this.setState({ sort: e.target.value });
     this.listProducts();
@@ -139,7 +149,10 @@ class Fetcher extends Component {
           sort={this.state.sort}
           handleChangeSort={this.handleChangeSort}
         />
-        <Basket favItems={this.state.favItems} />
+        <Basket
+          favItems={this.state.favItems}
+          handleRemoveFromFav={this.handleRemoveFromFav}
+        />
         <Modal show={this.state.show} modalClosed={this.modalClosedHandler}>
           {modalSummary}
         </Modal>
