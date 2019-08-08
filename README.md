@@ -1,6 +1,8 @@
 Project hosted on Heroku-
 See Demo - https://i-tunes-fetch-top-100-songs.herokuapp.com/
 
+Take some time to load as there are 100 images to load on first page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
