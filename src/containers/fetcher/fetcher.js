@@ -67,24 +67,6 @@ class Fetcher extends Component {
 
   listProducts = () => {
     this.setState(state => {
-      //   if (state.sort !== "") {
-      //     let filteredPost = state.posts.map(post => {
-      //       return post["im:price"].label.sort((a, b) =>
-      //         state.sort === "lowest"
-      //           ? a.price < b.price
-      //             ? 1
-      //             : -1
-      //           : a.price > b.price
-      //           ? 1
-      //           : -1
-      //       );
-      //     });
-      //   } else {
-      //     state.posts["im:name"].label.sort();
-      //   }
-      //   return { filteredPost: filteredPost };
-      // });
-
       if (state.sort !== "") {
         state.posts.sort((a, b) =>
           state.sort === "lowest"

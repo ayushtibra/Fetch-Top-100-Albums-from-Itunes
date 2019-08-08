@@ -11,7 +11,7 @@ const header = props => {
 
         <div className="col-md-4">
           <a
-            href="https://ayushtibra.github.io/Itunes-Top-100-albums/"
+            href="https://github.com/ayushtibra/Fetch-Top-100-Albums-from-Itunes"
             style={{
               textDecoration: "none",
               color: "white"
