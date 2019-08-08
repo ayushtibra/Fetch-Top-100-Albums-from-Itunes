@@ -67,19 +67,40 @@ class Fetcher extends Component {
 
   listProducts = () => {
     this.setState(state => {
+      //   if (state.sort !== "") {
+      //     let filteredPost = state.posts.map(post => {
+      //       return post["im:price"].label.sort((a, b) =>
+      //         state.sort === "lowest"
+      //           ? a.price < b.price
+      //             ? 1
+      //             : -1
+      //           : a.price > b.price
+      //           ? 1
+      //           : -1
+      //       );
+      //     });
+      //   } else {
+      //     state.posts["im:name"].label.sort();
+      //   }
+      //   return { filteredPost: filteredPost };
+      // });
+
       if (state.sort !== "") {
-        state.posts["im:price"].label.sort((a, b) =>
+        state.posts.sort((a, b) =>
           state.sort === "lowest"
-            ? a.price < b.price
+            ? a["im:name"].label > b["im:name"].label
               ? 1
               : -1
-            : a.price > b.price
+            : a["im:name"].label < b["im:name"].label
             ? 1
             : -1
         );
       } else {
-        state.posts["im:name"].label.sort();
+        state.posts.sort((a, b) => (a.id.label < b.id.label ? 1 : -1));
       }
+      // state.posts.map(post => {
+      //   console.log(post["im:price"].label);
+      // });
       return { filteredPosts: state.posts };
     });
   };
@@ -113,6 +134,7 @@ class Fetcher extends Component {
     const modalSummary = this.state.filteredPosts.map(post => {
       return post.title.label === this.state.id ? (
         <ModalSummary
+          key={post.id.label}
           image={post["im:image"][2].label}
           price={post["im:price"].label}
           date={post["im:releaseDate"].label}

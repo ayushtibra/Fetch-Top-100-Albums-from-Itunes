@@ -1,7 +1,8 @@
-.header {
+.basket {
   text-align: center;
   margin: auto;
   padding: 1rem;
-  /* background-color: #303030; */
+  background-color: black;
   color: #ffffff;
+  border-top: 0.5px solid white;
 }

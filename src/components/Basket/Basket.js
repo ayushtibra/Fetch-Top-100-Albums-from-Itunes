@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import classes from "./Basket.module.css";
 
 class Basket extends Component {
   render() {
     return (
-      <div className="alert alert-info">
+      <div className={classes.basket}>
         {this.props.favItems.length === 0 ? (
-          "Basket is empty"
+          <b>Basket is empty</b>
         ) : (
           <div>
             You have {this.props.favItems.length} items in the basket. <hr />
@@ -16,7 +17,7 @@ class Basket extends Component {
             <ul style={{ marginLeft: -25 }}>
               {this.props.favItems.map(item => (
                 <li key={item.title.id}>
-                  <b style={{ color: "black" }}> {item["im:name"].label} </b>
+                  <b style={{ color: "white" }}> {item["im:name"].label} </b>
                 </li>
               ))}
             </ul>
