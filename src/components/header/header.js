@@ -25,7 +25,7 @@ const header = props => {
         <div className="col-md-4">
           <label>
             Order By
-            <select
+            {/* <select
               className="form-control"
               value={props.sort}
               onChange={props.handleChangeSort}
@@ -33,7 +33,7 @@ const header = props => {
               <option value="">Select</option>
               <option value="lowest">L to H</option>
               <option value="highest">H to L</option>
-            </select>
+            </select> */}
           </label>
         </div>
       </div>

@@ -61,3 +61,48 @@
 .date {
   color: aliceblue;
 }
+
+.newButton {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 6px 17px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+
+.newButton:hover {
+  opacity: 1;
+}
+
+/* .button {
+  display: none;
+}
+
+.wrapper:hover .button {
+  display: block;
+  position: absolute;
+  top: 52%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wrapper:hover .button:hover {
+  background-color: aqua;
+} */
