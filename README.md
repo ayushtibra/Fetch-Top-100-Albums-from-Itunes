@@ -19,6 +19,40 @@ This page show our top 100 albums fetched from Itunes API.
 
 Take some time to load as there are 100 images to load on first page.
 
+
+## 2. Sort Functionality
+As you see in this image the albums are sort from A to Z, as there are images with numerical title present. So they are comimg first and
+then title starting with A comes.
+<div>
+  <img src="/Screenshot/SortAtoZ.PNG">
+</div>
+  
+ 
+## 3. Modal Appear on clicking Albums
+When you click one of the albums, a modal appear contained information of that album.
+<div>
+  <img src="/Screenshot/modal.PNG">
+</div>
+  
+
+## 4. Add Albums to Favourite Category.
+A button on every album present to add them to Favourite Album category.
+<div>
+  <img src="/Screenshot/favAlbum.PNG">
+</div>
+
+
+## To run this Prject on your system-
+1. npm install on your system.
+2. node install on your system.
+
+## How to run Project on your system-
+- Install node modules where you downloaded the project.
+- npm start to run the project
+
+On Browser type-
+localhost:3000 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
