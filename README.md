@@ -1,7 +1,5 @@
 # I-Tunes Top 100 Albums
 
-
-
 Project hosted on Heroku-
 [See Demo](https://i-tunes-fetch-top-100-songs.herokuapp.com/)
 
