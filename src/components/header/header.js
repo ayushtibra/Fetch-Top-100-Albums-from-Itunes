@@ -30,8 +30,8 @@ const header = props => {
               onChange={props.handleChangeSort}
             >
               <option value="">Select</option>
-              <option value="lowest">L to H</option>
-              <option value="highest">H to L</option>
+              <option value="lowest">A to Z</option>
+              <option value="highest">Z to A</option>
             </select>
           </label>
         </div>
