@@ -42,6 +42,17 @@ A button on every album present to add them to Favourite Album category.
   <img src="/Screenshot/favAlbum.PNG">
 </div>
 
+## Any Queries and feedback regarding this project would be appreciable-
+Queries - 
+1) How to install this project on your local machine?
+
+
+Feedback -
+1) Find any errors please let me know
+2) Method to improve any component
+3) Anything you would like to say
+
+## Mail me on - aayushtibra1997@gmail.com
 
 ## To run this Prject on your system-
 1. npm install on your system.
