@@ -42,7 +42,7 @@ A button on every album present to add them to Favourite Album category.
   <img src="/Screenshot/favAlbum.PNG">
 </div>
 
-## Any Queries and feedback regarding this project would be appreciable-
+### Any Queries and feedback regarding this project would be appreciable-
 Queries - 
 1) How to install this project on your local machine?
 
@@ -52,17 +52,17 @@ Feedback -
 2) Method to improve any component
 3) Anything you would like to say
 
-## Mail me on - aayushtibra1997@gmail.com
+### Mail me on - aayushtibra1997@gmail.com
 
-## To run this Prject on your system-
+### To run this Prject on your system-
 1. npm install on your system.
 2. node install on your system.
 
-## How to run Project on your system-
+### How to run Project on your system-
 - Install node modules where you downloaded the project.
 - npm start to run the project
 
-On Browser type-
+#### On Browser type-
 localhost:3000 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
